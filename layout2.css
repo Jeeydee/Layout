@@ -1,21 +1,21 @@
 .borderLine{
-    border: 1px solid skyblue;
+    border: 1px solid pink;
     margin-top: 10px;
 }
-
 header{
-    
     width: 100%;
     height: 100px;
 }
-
-main{
-    width:100%;
-    height: 100vh;
-    float: left;
-    margin-right: 20;
+nav{
+    width: 100%;
+    height: 50px;
 }
-
+main{
+    float: left;
+    width: 49%; 
+    height: 100vh;
+    margin-right: 10px; 
+}
 footer{
     width: 100%;
     height: 100px;
