@@ -1,23 +1,43 @@
-.borderLine{
-    border: 1px solid pink;
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.borderLine {
+    border: 1px solid skyblue;
     margin-top: 10px;
 }
-header{
-    width: 100%;
+
+.flexContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+header, nav, main, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header, footer {
     height: 100px;
 }
-nav{
-    width: 100%;
+
+nav {
     height: 50px;
 }
-main{
-    float: left;
-    width: 49%; 
-    height: 100vh;
-    margin-right: 10px; 
+
+main {
+    flex-grow: 1;
 }
-footer{
-    width: 100%;
+
+aside, section {
+    flex: 1;
+    margin: 10px;
+    height: 100vh;
+}
+
+footer {
     height: 100px;
-    float: left;
 }
